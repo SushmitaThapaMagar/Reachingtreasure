@@ -30,7 +30,9 @@ import doc7 from './doc7.jpg'
 import doc8 from './doc8.jpg'
 import doc9 from './doc9.jpg'
 import doc10 from './doc10.jpg'
-
+import varified_icon from './varified_icon.png'
+import info_icon from './info_icon.png'
+import love from './love.png'
 
 export const assets ={
     miss,
@@ -54,7 +56,10 @@ export const assets ={
     doc3,
     doc4,
     doc5,
-    doc6
+    doc6,
+    varified_icon,
+    info_icon,
+    love
 }
 
 
@@ -184,7 +189,7 @@ export const doctors =[
         _id : 'doc7',
         name : 'Dr. Margeto Filence',
         image : doc7,
-        speciality : 'General physician',
+        speciality : 'General Physician',
         degree : 'MBBS',
         experience : '5 years',
         about : 'Dr. Margeto has a strong skill to deal with people who are losing their mind and soul. She inspires many patients to overcome the disease.',
@@ -214,7 +219,7 @@ export const doctors =[
         _id : 'doc9',
         name : 'Dr. Kelly Hussan',
         image : doc9,
-        speciality : 'General physician',
+        speciality : 'General Physician',
         degree : 'MBBS',
         experience : '5 years',
         about : 'Dr. Kelly has a strong skill to deal with people who are losing their mind and soul. She inspires many patients to overcome the disease.',
