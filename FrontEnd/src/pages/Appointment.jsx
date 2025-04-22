@@ -104,7 +104,7 @@ const Appointment = () => {
               <p className='flex items-center gap-1 text-sm font-medium text-gray-900 mt-3'>About 
                 <img className='w-4' src={assets.info_icon} alt="" />
                 </p>
-              <p className='text-sm text-gray-500 max-w-[700px] mt-1'>{docInfo.about}</p>
+              <p className='text-sm text-gray-500 max-w-[900px] mt-1'>{docInfo.about}</p>
             </div>
             <p className='text-gray-700 text-sm font-medium mt-3'>
               Appointment Fee : <span className='text-gray-600'>{currencySymbol}{docInfo.fees}</span>
@@ -136,7 +136,7 @@ const Appointment = () => {
           ))}
         </div>
 
-        <button className='flex items-center gap-2 bg-secondary text-white text-m font-light mt-5 mb-5 px-5 py-3 rounded-full'>
+        <button className='flex items-center gap-2 bg-secondary text-white text-m font-light mt-5 mb-4 px-4 py-2 rounded-full'>
           Book An Appointment
           <img className='w-5' src={assets.love} alt="" />
           </button>
