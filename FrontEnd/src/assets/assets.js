@@ -35,8 +35,10 @@ import varified_icon from './varified_icon.png'
 import info_icon from './info_icon.png'
 import love from './love.png'
 import care from './care.jpg'
+import sushmita from './sushmita.jpg'
 
 export const assets ={
+    sushmita,
     miss,
     care,
     logo,
@@ -97,37 +99,37 @@ export const specialityData =[
 export const doctors =[
     {
         _id : 'doc1',
-        name : 'Dr. Juliet Denner',
+        name : 'Dr. Shova Tharu',
         image : doc1,
         speciality : 'Gynecologist',
         degree : 'M.D.',
         experience : '10 years',
-        about : 'Dr. Denner has a goal to provide comprehensive, evidence-based care that promotes the reproductive and overall health of women throughout all stages of life. This includes performing preventive screenings, diagnosing and managing gynecological conditions, supporting patients through pregnancy and menopause, and advocating for quality and equity in women’s healthcare.',
+        about : 'Dr. Shova has a goal to provide comprehensive, evidence-based care that promotes the reproductive and overall health of women throughout all stages of life. This includes performing preventive screenings, diagnosing and managing gynecological conditions, supporting patients through pregnancy and menopause, and advocating for quality and equity in women’s healthcare.',
         fees : 19000,
         address : {
-            line1 : 'Juliet Niwas, Coloni Line',
+            line1 : 'Shova Niwas, Coloni Line',
             line2 : 'Kathmandu, Nepal'
         }
 
     },
     {
         _id : 'doc2',
-        name : 'Dr. Jennith Beiber',
+        name : 'Dr. Hanna Bhattarai',
         image : doc2,
         speciality : 'Pediatricians',
         degree : 'D.O.',
         experience : '9 years',
-        about : 'Dr. Jenneith goal is to promote and safeguard the health, growth, and development of children from birth through adolescence by providing comprehensive, preventive, and individualized medical care. Pediatricians aim to prevent disease and injury through regular check-ups, immunizations, and anticipatory guidance, while also diagnosing and treating acute and chronic illnesses. They build trusting relationships with families, offer education and support on nutrition, safety, and healthy lifestyles, and advocate for the physical, emotional, and developmental well-being of every child.',
+        about : 'Dr. Hanna goal is to promote and safeguard the health, growth, and development of children from birth through adolescence by providing comprehensive, preventive, and individualized medical care. Pediatricians aim to prevent disease and injury through regular check-ups, immunizations, and anticipatory guidance, while also diagnosing and treating acute and chronic illnesses. They build trusting relationships with families, offer education and support on nutrition, safety, and healthy lifestyles, and advocate for the physical, emotional, and developmental well-being of every child.',
         fees : 10000,
         address : {
-            line1 : 'Jenneith Niwas, Coloni Line',
+            line1 : 'Hanna Niwas, Coloni Line',
             line2 : 'Kathmandu, Nepal'
         }
 
     },
     {
         _id : 'doc3',
-        name : 'Dr. Sampson Kedrick',
+        name : 'Dr. Sampson Chaudhary',
         image : doc3,
         speciality : 'Neurologist',
         degree : 'MBBS',
@@ -142,15 +144,15 @@ export const doctors =[
     },
     {
         _id : 'doc4',
-        name : 'Dr. Henna Lee Swa',
+        name : 'Dr. Rajina Thapa Magar',
         image : doc4,
         speciality : 'Pediatricians',
         degree : 'D.O.',
         experience : '35 years',
-        about : 'Dr. Henna goal is to promote optimal physical, mental, and social health for infants, children, adolescents, and young adults through preventive care, early intervention, and comprehensive medical support. They focus on routine check-ups, immunizations, growth monitoring, and developmental screenings to detect and address health issues promptly, while managing acute and chronic illnesses across diverse setting.',
+        about : 'Dr. Rajina goal is to promote optimal physical, mental, and social health for infants, children, adolescents, and young adults through preventive care, early intervention, and comprehensive medical support. They focus on routine check-ups, immunizations, growth monitoring, and developmental screenings to detect and address health issues promptly, while managing acute and chronic illnesses across diverse setting.',
         fees : 40000,
         address : {
-            line1 : 'Henna Niwas, Coloni Line',
+            line1 : 'Rajina Niwas, Coloni Line',
             line2 : 'Kathmandu, Nepal'
         }
 
@@ -158,7 +160,7 @@ export const doctors =[
 
     {
         _id : 'doc5',
-        name : 'Dr. Roger Adinando',
+        name : 'Dr. Rogen Ghimire',
         image : doc5,
         speciality : 'Dermatologist',
         degree : 'M.D.',
@@ -175,7 +177,7 @@ export const doctors =[
 
     {
         _id : 'doc6',
-        name : 'Dr. Thompson Jehar',
+        name : 'Dr. Thompson Shahi',
         image : doc6,
         speciality : 'Dermatologist',
         degree : 'M.D.',
@@ -190,22 +192,22 @@ export const doctors =[
     },
     {
         _id : 'doc7',
-        name : 'Dr. Margeto Filence',
+        name : 'Dr. Ram B. Thami',
         image : doc7,
         speciality : 'General Physician',
         degree : 'M.D.',
         experience : '5 years',
-        about : 'Dr. Margeto goal is to provide comprehensive, patient-centered primary care that promotes overall health and well-being for individuals and families across all ages and backgrounds. General physicians serve as the first point of contact in the healthcare system, diagnosing and treating a wide range of acute and chronic conditions, offering preventive care through regular check-ups, screenings, immunizations, and health education, and guiding patients in making healthy lifestyle choices. They coordinate care by referring patients to specialists when necessary, manage ongoing health concerns, and advocate for their patients’ needs within the healthcare system. By building long-term relationships and delivering holistic care, general physicians play a crucial role in improving health outcomes, reducing disease burden, and ensuring continuity of care within the community.',
+        about : 'Dr. Ram goal is to provide comprehensive, patient-centered primary care that promotes overall health and well-being for individuals and families across all ages and backgrounds. General physicians serve as the first point of contact in the healthcare system, diagnosing and treating a wide range of acute and chronic conditions, offering preventive care through regular check-ups, screenings, immunizations, and health education, and guiding patients in making healthy lifestyle choices. They coordinate care by referring patients to specialists when necessary, manage ongoing health concerns, and advocate for their patients’ needs within the healthcare system. By building long-term relationships and delivering holistic care, general physicians play a crucial role in improving health outcomes, reducing disease burden, and ensuring continuity of care within the community.',
         fees : 14000,
         address : {
-            line1 : 'Simana Niwas, Coloni Line',
+            line1 : 'Ram Bahadur Niwas, Coloni Line',
             line2 : 'Kathmandu, Nepal'
         }
 
     },
     {
         _id : 'doc8',
-        name : 'Dr. Annah Ortega',
+        name : 'Dr. Annah Shrestha',
         image : doc8,
         speciality : 'Neurologist',
         degree : 'M.D.',
@@ -250,7 +252,7 @@ export const doctors =[
     },
     {
         _id : 'doc11',
-        name : 'Dr. Marilyn Monrone',
+        name : 'Dr. Marilyn Thapa',
         image : doc11,
         speciality : 'Gastroenterologist',
         degree : 'MBBS',
@@ -264,3 +266,6 @@ export const doctors =[
 
     },
 ]
+
+
+export default assets
