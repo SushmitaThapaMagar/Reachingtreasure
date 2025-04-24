@@ -36,8 +36,12 @@ import info_icon from './info_icon.png'
 import love from './love.png'
 import care from './care.jpg'
 import sushmita from './sushmita.jpg'
+import menu from './menu.png'
+import cross_icon from './cross_icon.png'
 
 export const assets ={
+    cross_icon,
+    menu,
     sushmita,
     miss,
     care,
