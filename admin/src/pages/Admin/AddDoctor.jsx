@@ -76,7 +76,7 @@ const AddDoctor = () => {
   
 
   return (
-    <form onSubmit={onSubmitHandler} className='m-5 w-full'>
+    <form onSubmit={onSubmitHandler} className='m-6 w-full'>
       <p className='mb-3 text-medium font-medium'> Add Doctor</p>
 
       <div className='bg-white px-8 py-8 rounded w-full max-w-7xl max-h-[80vh] overflow-y-scroll'>

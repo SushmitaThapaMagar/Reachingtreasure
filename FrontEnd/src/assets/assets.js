@@ -109,7 +109,7 @@ export const doctors =[
         degree : 'M.D.',
         experience : '10 years',
         about : 'Dr. Shova has a goal to provide comprehensive, evidence-based care that promotes the reproductive and overall health of women throughout all stages of life. This includes performing preventive screenings, diagnosing and managing gynecological conditions, supporting patients through pregnancy and menopause, and advocating for quality and equity in women’s healthcare.',
-        fees : 19000,
+        fees : 190000,
         address : {
             line1 : 'Shova Niwas, Coloni Line',
             line2 : 'Kathmandu, Nepal'
@@ -137,7 +137,7 @@ export const doctors =[
         image : doc3,
         speciality : 'Neurologist',
         degree : 'MBBS',
-        experience : '20 years',
+        experience : '10 years',
         about : 'Dr. Sampson goal is to provide compassionate, effective, and evidence-based care for patients with disorders of the nervous system, including the brain, spinal cord, nerves, and muscles. Neurologists aim to accurately diagnose and manage a wide range of neurological conditions by obtaining thorough patient histories, performing comprehensive neurological examinations, and utilizing appropriate diagnostic tools. They strive to localize neurological problems, create prioritized differential diagnoses, and initiate timely treatment, especially in emergencies.',
         fees : 30000,
         address : {
@@ -152,7 +152,7 @@ export const doctors =[
         image : doc4,
         speciality : 'Pediatricians',
         degree : 'D.O.',
-        experience : '35 years',
+        experience : '10 years',
         about : 'Dr. Rajina goal is to promote optimal physical, mental, and social health for infants, children, adolescents, and young adults through preventive care, early intervention, and comprehensive medical support. They focus on routine check-ups, immunizations, growth monitoring, and developmental screenings to detect and address health issues promptly, while managing acute and chronic illnesses across diverse setting.',
         fees : 40000,
         address : {
