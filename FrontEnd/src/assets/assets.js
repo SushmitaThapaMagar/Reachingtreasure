@@ -38,8 +38,12 @@ import care from './care.jpg'
 import sushmita from './sushmita.jpg'
 import menu from './menu.png'
 import cross_icon from './cross_icon.png'
+import logoi from './logoi.png'
+import upload from './upload.svg'
+
 
 export const assets ={
+    logoi,
     cross_icon,
     menu,
     sushmita,
@@ -68,7 +72,8 @@ export const assets ={
     doc6,
     varified_icon,
     info_icon,
-    love
+    love,
+    upload
 }
 
 

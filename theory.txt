@@ -1,0 +1,92 @@
+
+//API to update user profile
+const updateProfile = async (req, res)=>{
+    try {
+        const {userId, name, phone, address, dob, gender} = req.body
+        const imageFile = req.file
+
+        console.log("Request Body:", req.body); // Log the incoming request body
+        console.log("User ID:", userId); // Check the userId
+        
+        if(!name || !phone || !dob || !gender){
+            return res.json({success:false, message:"Data Missing"})
+
+        }
+    
+
+        const userData = await userModel.findByIdAndUpdate(userId,{name,phone,address:JSON.parse(address),dob,gender}, { new: true })
+        
+        if (!userData) {
+            return res.json({ success: false, message: "User not found or not updated" });
+        }
+        console.log("Updated User:", userData);
+        
+        if(imageFile){
+            //update image to cloudinary
+            const imageUpload = await cloudinary.uploader.upload(imageFile.path,{resource_type: 'image'})
+
+            const imageURL = imageUpload.secure_url
+
+        await userModel.findByIdAndUpdate(userId, {image:imageURL}, { new: true })
+        }
+
+        res.json({success:true, message:"Profile Updated", userData })
+
+
+    }catch(error){
+    console.log(error);
+    res.json({success:false, message:error.message})
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+const updateProfile = async (req, res)=>{
+    try {
+        const {userId, name, phone, address, dob, gender} = req.body
+        const imageFile = req.file
+
+        console.log("Request Body:", req.body); // Log the incoming request body
+        console.log("User ID:", userId); // Check the userId
+        
+        if(!name || !phone || !dob || !gender){
+            return res.json({success:false, message:"Data Missing"})
+
+        }
+    
+
+        const userData = await userModel.findByIdAndUpdate(userId,{name,phone,address:JSON.parse(address),dob,gender}, { new: true })
+        
+        if (!userData) {
+            return res.json({ success: false, message: "User not found or not updated" });
+        }
+        console.log("Updated User:", userData);
+        
+        if(imageFile){
+            //update image to cloudinary
+            const imageUpload = await cloudinary.uploader.upload(imageFile.path,{resource_type: 'image'})
+
+            const imageURL = imageUpload.secure_url
+
+        await userModel.findByIdAndUpdate(userId, {image:imageURL}, { new: true })
+        }
+
+        res.json({success:true, message:"Profile Updated", userData })
+
+
+    }catch(error){
+    console.log(error);
+    res.json({success:false, message:error.message})
+
+}
+
+}
